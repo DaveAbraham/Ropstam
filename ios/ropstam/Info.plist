@@ -36,7 +36,39 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
+	<key>UIAppFonts</key>
+    	<array>
+    		<string>AntDesign.ttf</string>
+    		<string>Entypo.ttf</string>
+    		<string>EvilIcons.ttf</string>
+    		<string>Feather.ttf</string>
+    		<string>FontAwesome.ttf</string>
+    		<string>FontAwesome5_Brands.ttf</string>
+    		<string>FontAwesome5_Regular.ttf</string>
+    		<string>FontAwesome5_Solid.ttf</string>
+    		<string>Fontisto.ttf</string>
+    		<string>Foundation.ttf</string>
+    		<string>Ionicons.ttf</string>
+    		<string>MaterialCommunityIcons.ttf</string>
+    		<string>MaterialIcons.ttf</string>
+    		<string>Octicons.ttf</string>
+    		<string>SimpleLineIcons.ttf</string>
+    		<string>Zocial.ttf</string>
+    		<string>Poppins-Bold.ttf</string>
+    		<string>Poppins-Light.ttf</string>
+    		<string>Poppins-Medium.ttf</string>
+    		<string>Poppins-Regular.ttf</string>
+    		<string>Poppins-SemiBold.ttf</string>
+    		<string>sf-ui-display-black-58646a6b80d5a.ttf</string>
+    		<string>sf-ui-display-bold-58646a511e3d9.ttf</string>
+    		<string>sf-ui-display-heavy-586470160b9e5.ttf</string>
+    		<string>sf-ui-display-light-58646b33e0551.ttf</string>
+    		<string>sf-ui-display-medium-58646be638f96.ttf</string>
+    		<string>sf-ui-display-semibold-58646eddcae92.ttf</string>
+    		<string>sf-ui-display-thin-58646e9b26e8b.ttf</string>
+    		<string>sf-ui-display-ultralight-58646b19bf205.ttf</string>
+    	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +83,17 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Bold.ttf</string>
+		<string>sf-ui-display-black-58646a6b80d5a.ttf</string>
+		<string>sf-ui-display-bold-58646a511e3d9.ttf</string>
+		<string>sf-ui-display-heavy-586470160b9e5.ttf</string>
+		<string>sf-ui-display-light-58646b33e0551.ttf</string>
+		<string>sf-ui-display-medium-58646be638f96.ttf</string>
+		<string>sf-ui-display-semibold-58646eddcae92.ttf</string>
+		<string>sf-ui-display-thin-58646e9b26e8b.ttf</string>
+		<string>sf-ui-display-ultralight-58646b19bf205.ttf</string>
+	</array>
 </dict>
 </plist>

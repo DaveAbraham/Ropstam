@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ropstamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ropstamTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ropstam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ropstam.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-ropstam-ropstamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ropstam-ropstamTests.a */; };
+		26BEA7B1512A288231668BBE /* libPods-ropstam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C00969E28154445DC4C331 /* libPods-ropstam.a */; };
+		35E382FB9D0347E986C39248 /* sf-ui-display-light-58646b33e0551.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D40DB25040F4D07A6B51D04 /* sf-ui-display-light-58646b33e0551.ttf */; };
+		43A728BCE080020B88C4A240 /* libPods-ropstam-ropstamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1223414A8DD79E0C22B429B /* libPods-ropstam-ropstamTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A5B88C85C24A41D19A302F46 /* sf-ui-display-ultralight-58646b19bf205.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46156072A1CC48E98A9E3D95 /* sf-ui-display-ultralight-58646b19bf205.ttf */; };
+		AA11DEB982F94FD7AECF52C8 /* sf-ui-display-black-58646a6b80d5a.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C63E5575D7947758DA143B5 /* sf-ui-display-black-58646a6b80d5a.ttf */; };
+		C33E0873DC7E49D18DC1FF7A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CA38CE2291B4D6492A92769 /* Poppins-Bold.ttf */; };
+		DAEE020620A44A949B860B1C /* sf-ui-display-medium-58646be638f96.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53F3C94D25494E1FBAEC78CF /* sf-ui-display-medium-58646be638f96.ttf */; };
+		E5F6118ADD534F5992193215 /* sf-ui-display-semibold-58646eddcae92.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE679964F2141279823039B /* sf-ui-display-semibold-58646eddcae92.ttf */; };
+		E73688182B29485A9986ED01 /* sf-ui-display-bold-58646a511e3d9.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D596B1872AA4E2CABF2912B /* sf-ui-display-bold-58646a511e3d9.ttf */; };
+		F90EAFB287E34F1785B3BC20 /* sf-ui-display-thin-58646e9b26e8b.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59EE47F6142A4692BDBDAD67 /* sf-ui-display-thin-58646e9b26e8b.ttf */; };
+		FD02C36F39D741ADB29EC5B8 /* sf-ui-display-heavy-586470160b9e5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BEADEA9EC534344850A18EA /* sf-ui-display-heavy-586470160b9e5.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +39,28 @@
 		00E356EE1AD99517003FC87E /* ropstamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ropstamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ropstamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ropstamTests.m; sourceTree = "<group>"; };
+		0CA38CE2291B4D6492A92769 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ropstam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ropstam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ropstam/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ropstam/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ropstam/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ropstam/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ropstam/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ropstam-ropstamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ropstam-ropstamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-ropstam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam.debug.xcconfig"; path = "Target Support Files/Pods-ropstam/Pods-ropstam.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ropstam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam.release.xcconfig"; path = "Target Support Files/Pods-ropstam/Pods-ropstam.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ropstam-ropstamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam-ropstamTests.debug.xcconfig"; path = "Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ropstam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ropstam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E2B0956777366A5E5B9F7D /* Pods-ropstam-ropstamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam-ropstamTests.release.xcconfig"; path = "Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CE679964F2141279823039B /* sf-ui-display-semibold-58646eddcae92.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-semibold-58646eddcae92.ttf"; path = "../src/assets/fonts/sf-ui-display-semibold-58646eddcae92.ttf"; sourceTree = "<group>"; };
+		46156072A1CC48E98A9E3D95 /* sf-ui-display-ultralight-58646b19bf205.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-ultralight-58646b19bf205.ttf"; path = "../src/assets/fonts/sf-ui-display-ultralight-58646b19bf205.ttf"; sourceTree = "<group>"; };
+		4BEADEA9EC534344850A18EA /* sf-ui-display-heavy-586470160b9e5.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-heavy-586470160b9e5.ttf"; path = "../src/assets/fonts/sf-ui-display-heavy-586470160b9e5.ttf"; sourceTree = "<group>"; };
+		4C63E5575D7947758DA143B5 /* sf-ui-display-black-58646a6b80d5a.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-black-58646a6b80d5a.ttf"; path = "../src/assets/fonts/sf-ui-display-black-58646a6b80d5a.ttf"; sourceTree = "<group>"; };
+		53F3C94D25494E1FBAEC78CF /* sf-ui-display-medium-58646be638f96.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-medium-58646be638f96.ttf"; path = "../src/assets/fonts/sf-ui-display-medium-58646be638f96.ttf"; sourceTree = "<group>"; };
+		59EE47F6142A4692BDBDAD67 /* sf-ui-display-thin-58646e9b26e8b.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-thin-58646e9b26e8b.ttf"; path = "../src/assets/fonts/sf-ui-display-thin-58646e9b26e8b.ttf"; sourceTree = "<group>"; };
+		6D40DB25040F4D07A6B51D04 /* sf-ui-display-light-58646b33e0551.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-light-58646b33e0551.ttf"; path = "../src/assets/fonts/sf-ui-display-light-58646b33e0551.ttf"; sourceTree = "<group>"; };
+		7D596B1872AA4E2CABF2912B /* sf-ui-display-bold-58646a511e3d9.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-bold-58646a511e3d9.ttf"; path = "../src/assets/fonts/sf-ui-display-bold-58646a511e3d9.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ropstam/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ropstam-ropstamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam-ropstamTests.release.xcconfig"; path = "Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests.release.xcconfig"; sourceTree = "<group>"; };
+		96C00969E28154445DC4C331 /* libPods-ropstam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ropstam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C66D732A64A735B4FFDF0F /* Pods-ropstam-ropstamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam-ropstamTests.debug.xcconfig"; path = "Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE456BFA2662AD025550B48 /* Pods-ropstam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam.debug.xcconfig"; path = "Target Support Files/Pods-ropstam/Pods-ropstam.debug.xcconfig"; sourceTree = "<group>"; };
+		D6217B3346BAD15D9E7510EC /* Pods-ropstam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam.release.xcconfig"; path = "Target Support Files/Pods-ropstam/Pods-ropstam.release.xcconfig"; sourceTree = "<group>"; };
+		E1223414A8DD79E0C22B429B /* libPods-ropstam-ropstamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ropstam-ropstamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ropstam-ropstamTests.a in Frameworks */,
+				43A728BCE080020B88C4A240 /* libPods-ropstam-ropstamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ropstam.a in Frameworks */,
+				26BEA7B1512A288231668BBE /* libPods-ropstam.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +118,27 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ropstam.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ropstam-ropstamTests.a */,
+				96C00969E28154445DC4C331 /* libPods-ropstam.a */,
+				E1223414A8DD79E0C22B429B /* libPods-ropstam-ropstamTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6667C74602FB409CA9AE8B52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CA38CE2291B4D6492A92769 /* Poppins-Bold.ttf */,
+				4C63E5575D7947758DA143B5 /* sf-ui-display-black-58646a6b80d5a.ttf */,
+				7D596B1872AA4E2CABF2912B /* sf-ui-display-bold-58646a511e3d9.ttf */,
+				4BEADEA9EC534344850A18EA /* sf-ui-display-heavy-586470160b9e5.ttf */,
+				6D40DB25040F4D07A6B51D04 /* sf-ui-display-light-58646b33e0551.ttf */,
+				53F3C94D25494E1FBAEC78CF /* sf-ui-display-medium-58646be638f96.ttf */,
+				3CE679964F2141279823039B /* sf-ui-display-semibold-58646eddcae92.ttf */,
+				59EE47F6142A4692BDBDAD67 /* sf-ui-display-thin-58646e9b26e8b.ttf */,
+				46156072A1CC48E98A9E3D95 /* sf-ui-display-ultralight-58646b19bf205.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -122,6 +157,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6667C74602FB409CA9AE8B52 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,10 +176,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ropstam.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ropstam.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ropstam-ropstamTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ropstam-ropstamTests.release.xcconfig */,
+				ABE456BFA2662AD025550B48 /* Pods-ropstam.debug.xcconfig */,
+				D6217B3346BAD15D9E7510EC /* Pods-ropstam.release.xcconfig */,
+				A7C66D732A64A735B4FFDF0F /* Pods-ropstam-ropstamTests.debug.xcconfig */,
+				31E2B0956777366A5E5B9F7D /* Pods-ropstam-ropstamTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ropstamTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				9C28715BDFBCC9A53689FB02 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				82C959D830E7FE27C28E2F1C /* [CP] Embed Pods Frameworks */,
+				1CE2185EB92028AF3232CFB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +212,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ropstam" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				205B80B7E963800EE82206BB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				E8DF102CB1FB12CA0B233853 /* [CP] Embed Pods Frameworks */,
+				89CFF289BAC29BAA5DC9A2DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +280,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C33E0873DC7E49D18DC1FF7A /* Poppins-Bold.ttf in Resources */,
+				AA11DEB982F94FD7AECF52C8 /* sf-ui-display-black-58646a6b80d5a.ttf in Resources */,
+				E73688182B29485A9986ED01 /* sf-ui-display-bold-58646a511e3d9.ttf in Resources */,
+				FD02C36F39D741ADB29EC5B8 /* sf-ui-display-heavy-586470160b9e5.ttf in Resources */,
+				35E382FB9D0347E986C39248 /* sf-ui-display-light-58646b33e0551.ttf in Resources */,
+				DAEE020620A44A949B860B1C /* sf-ui-display-medium-58646be638f96.ttf in Resources */,
+				E5F6118ADD534F5992193215 /* sf-ui-display-semibold-58646eddcae92.ttf in Resources */,
+				F90EAFB287E34F1785B3BC20 /* sf-ui-display-thin-58646e9b26e8b.ttf in Resources */,
+				A5B88C85C24A41D19A302F46 /* sf-ui-display-ultralight-58646b19bf205.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,46 +311,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		1CE2185EB92028AF3232CFB2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ropstam/Pods-ropstam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ropstam/Pods-ropstam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ropstam/Pods-ropstam-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ropstam-ropstamTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		205B80B7E963800EE82206BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,7 +350,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		82C959D830E7FE27C28E2F1C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,7 +367,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		89CFF289BAC29BAA5DC9A2DA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,21 +384,43 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ropstam/Pods-ropstam-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		9C28715BDFBCC9A53689FB02 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ropstam-ropstamTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8DF102CB1FB12CA0B233853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ropstam/Pods-ropstam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ropstam/Pods-ropstam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ropstam/Pods-ropstam-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +475,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ropstam-ropstamTests.debug.xcconfig */;
+			baseConfigurationReference = A7C66D732A64A735B4FFDF0F /* Pods-ropstam-ropstamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +502,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ropstam-ropstamTests.release.xcconfig */;
+			baseConfigurationReference = 31E2B0956777366A5E5B9F7D /* Pods-ropstam-ropstamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +526,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ropstam.debug.xcconfig */;
+			baseConfigurationReference = ABE456BFA2662AD025550B48 /* Pods-ropstam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +553,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ropstam.release.xcconfig */;
+			baseConfigurationReference = D6217B3346BAD15D9E7510EC /* Pods-ropstam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-black-58646a6b80d5a.ttf",
+      "sha1": "5bb0eeb9141eee416583c24dcdc25f2a9611ac58"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-bold-58646a511e3d9.ttf",
+      "sha1": "5a629b97cc244767f679a8b667e3249a5502355d"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-heavy-586470160b9e5.ttf",
+      "sha1": "5ddab64d8c5181dfeecddd51412aeb8fdfba43d0"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-light-58646b33e0551.ttf",
+      "sha1": "db1b7b5d6a8bfb1fe228a58a84bd1722e1df6550"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-medium-58646be638f96.ttf",
+      "sha1": "4d6f08fa4eb6f6cb80d5be379331fc4ffd0ae990"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-semibold-58646eddcae92.ttf",
+      "sha1": "6a91dee283910cf17ad5c07192d692deb12dfcd7"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-thin-58646e9b26e8b.ttf",
+      "sha1": "4f006d71d17dddb500e1e64be30e3421c32fff27"
+    },
+    {
+      "path": "src/assets/fonts/sf-ui-display-ultralight-58646b19bf205.ttf",
+      "sha1": "e6bd93fbc2101823b653f45387327347957e20cd"
+    }
+  ]
+}
