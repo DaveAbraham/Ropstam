@@ -1,31 +1,80 @@
 import {call, put} from 'redux-saga/effects';
-import {loginSucess} from '../../reducers/userReducer';
+
 import {getData, parseJson, storeData} from '../../../helpers/helpingFunctions';
-import { loginError, signUpError, signUpSucess } from "../../reducers/carsReducer";
+import {
+  loginSuccess,
+  loginError,
+  signUpError,
+  signUpSucess,
+} from '../../reducers/carsReducer';
 
+// export function* handleLoginUser(action) {
+//   try {
+//     const response = yield call(getData, '@users');
+//     const data = parseJson(response);
+//     console.log('data', data[0].email);
+//     if (data) {
+//       console.log('inside data');
+//       let flag = 0;
+//       for (let i = 0, length = data.length; i < length; i++) {
+//         console.log(
+//           'inside lope',
+//           action.payload.email,
+//           data[i].email,
+//           action.payload.password,
+//           data[i].password,
+//         );
+//         if (
+//           data[i].email == action.payload.email &&
+//           data[i].password == action.payload.password
+//         ) {
+//           flag = 1;
+//         }
+//       }
+//       if (flag) {
+//         console.log('inside flage if', action.payload);
+//         // yield call(storeData, '@user', action.payload);
+//         // yield put(loginSucess(action.payload));
+//       } else {
+//         // alert('Invalid credentials');
+//         // yield put(loginError('Invalid credentials'));
+//       }
+//     }
+//   } catch (error) {
+//     alert('Unexpected error please try again');
+//   }
+// }
 export function* handleLoginUser(action) {
+  console.log(action.payload);
   try {
+    let data;
+    let flag = 0;
     const response = yield call(getData, '@users');
-    console.log("login res>",response)
     if (response) {
-      console.log("inside")
-      let found = 0;
-      for (let i = 0, length = response.length; i < length; i++) {
-        if (
-          data[i].email == action.payload.email &&
-          data[i].password == action.payload.password
-        ) {
-          yield call(storeData, '@user', action.payload);
-          yield put(loginSucess(action.payload));
-
-          found = 1;
-        } else if (!found) {
-          alert('Invalid credentials');
-          yield put(loginError('Inavalid credentials'));
+      data = parseJson(response);
+      console.warn(data[0].email);
+      if (data) {
+        for (let i = 0, length = data.length; i < length; i++) {
+          console.log('inside loop', data[i].email, action.payload.email);
+          if (
+            data[i].email == action.payload.email &&
+            data[i].password == action.payload.password
+          ) {
+            flag = 1;
+          }
         }
       }
+      if (flag) {
+        console.log('inside flage if', action.payload);
+        yield call(storeData, '@user', action.payload);
+        yield put(loginSuccess(action.payload));
+      } else {
+        alert('Invalid credentials');
+        yield put(loginError('Invalid credentials'));
+      }
     } else {
-      alert('Invalid credentials');
+      alert('Please signup first');
+      yield put(loginError('Please signup first'));
     }
   } catch (error) {
     alert('Unexpected error please try again');
@@ -35,24 +84,33 @@ export function* handleLoginUser(action) {
 export function* handleSignupUser(action) {
   try {
     const response = yield call(getData, '@users');
-    console.log('response>>>', response);
-    if (response) {
-      console.log("condition1")
-      let temp = [...response, action.payload];
-      yield call(storeData('@users', temp));
-      yield put(signUpSucess());
-      alert('Signed successfully1');
+    const data = parseJson(response);
+    if (data) {
+      let flag = 0;
+      for (let i = 0, l = data.length; i < l; i++) {
+        if (data[i].email == action.payload.email) {
+          flag = 1;
+        }
+      }
+      if (flag) {
+        alert('Email already taken please enter a different email');
+        yield put(
+          signUpError('email already taken please enter a different email'),
+        );
+      } else {
+        let temp = [...data, action.payload];
+        yield call(storeData, '@users', temp);
+        yield put(signUpSucess());
+        alert('Signed up successfully');
+      }
     } else {
-      console.log("condition2")
-
       let temp1 = [action.payload];
-      console.log(temp1)
       yield call(storeData, '@users', temp1);
       yield put(signUpSucess());
-      alert('Signed successfully2');
+      alert('Signed Up successfully');
     }
   } catch (error) {
     alert('Something Went wrong try again later');
-    yield put(signUpError("Something went wrong"))
+    yield put(signUpError('Something went wrong'));
   }
 }

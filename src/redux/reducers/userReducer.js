@@ -4,6 +4,7 @@ export const LOGIN_ERROR = 'LOGIN_ERROR';
 export const SIGNUP = 'SIGNUP';
 export const SIGNUP_SUCCESS = 'SIGNUP_SUCESS';
 export const SIGNUP_ERROR = 'SIGNUP_ERROR';
+export const CLEAR = 'CLEAR';
 
 export const signUp = data => {
   return {
@@ -42,6 +43,11 @@ export const loginError = error => {
     payload: error,
   };
 };
+export const clearUser = () => {
+  return {
+    type: CLEAR,
+  };
+};
 
 const initialState = {
   user: {},
@@ -72,6 +78,7 @@ const userReducer = (state = initialState, action) => {
     case LOGIN:
       return {...state, loading: true, disabled: true};
     case LOGIN_SUCCESS:
+      console.warn('what is this', action.payload);
       return {
         ...state,
         loading: false,
@@ -86,6 +93,13 @@ const userReducer = (state = initialState, action) => {
         disabled: false,
         error: true,
         message: action.payload,
+      };
+    case CLEAR:
+      console.log('usreeeeee');
+      return {
+        ...state,
+        user: {},
+        isLoggedIn: false,
       };
     default:
       return {...state};

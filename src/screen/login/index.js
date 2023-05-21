@@ -7,7 +7,7 @@ import {styles} from './styles';
 import {LAYOUT} from '../../layout';
 import AppButton from '../../components/appButton';
 import Container from '../../components/container';
-import { useDispatch, useSelector } from "react-redux";
+import {useDispatch, useSelector} from 'react-redux';
 import {login} from '../../redux/reducers/carsReducer';
 
 const Login = () => {
@@ -15,7 +15,7 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const navigation = useNavigation();
   const dispatch = useDispatch();
-  const {loading} = useSelector(state => state.userReducer)
+  const {loading} = useSelector(state => state.userReducer);
   const handleLogin = () => {
     dispatch(login({email, password}));
   };

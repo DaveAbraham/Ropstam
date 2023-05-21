@@ -7,22 +7,12 @@ const Item = ({make, model, image, onPress, price}) => {
     <TouchableOpacity onPress={onPress}>
       <View style={styles.itemStyle}>
         <View style={styles.itemImageView}>
-          {image ? (
-            <Image
-              source={{
-                uri: image,
-              }}
-              style={styles.itemImage}
-            />
-          ) : (
-            <View
-              style={[
-                styles.itemImage,
-                {alignItems: 'center', justifyContent: 'center'},
-              ]}>
-              <Text style={{color: LAYOUT.COLORS.S2}}>No Image preview</Text>
-            </View>
-          )}
+          <Image
+            source={{
+              uri: image,
+            }}
+            style={styles.itemImage}
+          />
         </View>
         <View style={styles.itemDetailsView}>
           <Text style={styles.detailHeading}>{`Make: ${make}`}</Text>

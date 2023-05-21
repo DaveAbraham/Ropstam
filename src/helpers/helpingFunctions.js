@@ -18,3 +18,13 @@ export const parseJson = jsonString => {
     return false;
   }
 };
+
+export const removeItemAsync = async key => {
+  try {
+    await AsyncStorage.removeItem(key);
+    return true;
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+};

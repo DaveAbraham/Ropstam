@@ -20,14 +20,14 @@ const COLORS={
 }
 const FONTS = {
   POP: 'Poppins-Bold',
-  LIGHT: 'sf-ui-display-light-58646b33e0551',
-  REGULAR: 'sf-ui-display-black-58646a6b80d5a',
-  MEDIUM: 'sf-ui-display-medium-58646be638f96',
-  SEMI_BOLD: 'sf-ui-display-semibold-58646eddcae92',
-  BOLD: 'sf-ui-display-bold-58646a511e3d9',
-  HEAVY: 'sf-ui-display-heavy-586470160b9e5',
-  THIN: 'sf-ui-display-thin-58646e9b26e8b',
-  EXTRA_THIN: 'sf-ui-display-ultralight-58646b19bf205',
+  LIGHT: 'SFUIDisplay-Light',
+  REGULAR: 'SFUIDisplay-Black',
+  MEDIUM: 'SFUIDisplay-Medium',
+  SEMI_BOLD: 'SFUIDisplay-Light',
+  BOLD: 'SFUIDisplay-Bold',
+  HEAVY: 'SFUIDisplay-Heavy',
+  THIN: 'SFUIDisplay-Thin',
+  EXTRA_THIN: 'SFUIDisplay-Ultralight',
 };
 export const LAYOUT = {
   WIDTH,

@@ -28,9 +28,10 @@ export const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
     borderRadius: 9,
+    resizeMode: 'cover',
   },
   itemDetailsView: {
-    // backgroundColor: 'red',
+    backgroundColor: 'red',
     width: LAYOUT.WIDTH / 2,
     height: LAYOUT.HEIGHT / 8,
     position: 'absolute',
@@ -42,7 +43,7 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     marginVertical: 3,
     fontFamily: LAYOUT.FONTS.BOLD,
-    color:LAYOUT.COLORS.S,
-    textAlign:"center"
+    color: LAYOUT.COLORS.S,
+    textAlign: 'center',
   },
 });
