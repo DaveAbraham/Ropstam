@@ -3,7 +3,6 @@ import {LAYOUT} from '../../layout';
 
 export const styles = StyleSheet.create({
   topTextContainer: {
-    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: LAYOUT.HEIGHT / 12,

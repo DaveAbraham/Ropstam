@@ -1,5 +1,5 @@
 import {takeLatest, takeEvery} from 'redux-saga/effects';
-import {SIGNUP, LOGIN} from '../reducers/carsReducer';
+import {SIGNUP, LOGIN} from '../reducers/userReducer';
 import {handleSignupUser} from './handler/user';
 import {handleLoginUser} from './handler/user';
 

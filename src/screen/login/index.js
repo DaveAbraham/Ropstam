@@ -8,7 +8,7 @@ import {LAYOUT} from '../../layout';
 import AppButton from '../../components/appButton';
 import Container from '../../components/container';
 import {useDispatch, useSelector} from 'react-redux';
-import {login} from '../../redux/reducers/carsReducer';
+import {login} from '../../redux/reducers/userReducer';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -21,7 +21,7 @@ const Login = () => {
   };
   return (
     <Container title={'Login'} heading={'Welcome back'}>
-      <View style={styles.textFieldsContainer}>
+      <View style={styles.topTextContainer}>
         <TextField
           placeholder={'Enter Email'}
           label={'User name'}

@@ -9,7 +9,7 @@ const LandingPage = () => {
   const navigation = useNavigation();
   return (
     <View style={styles.fullContainer}>
-      <Text style={styles.heading}>RopStam</Text>
+      {/*<Text style={styles.heading}>RopStam</Text>*/}
       <View style={styles.btnContainer}>
         <AppButton
           label={'signup'}

@@ -6,7 +6,7 @@ import AppButton from '../../components/appButton';
 import {styles} from './styles';
 import {LAYOUT} from '../../layout';
 import {useDispatch, useSelector} from 'react-redux';
-import {signUp} from '../../redux/reducers/carsReducer';
+import {signUp} from '../../redux/reducers/userReducer';
 
 const SignUp = () => {
   const [name, setName] = useState('');

@@ -15,7 +15,6 @@
 		35E382FB9D0347E986C39248 /* sf-ui-display-light-58646b33e0551.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D40DB25040F4D07A6B51D04 /* sf-ui-display-light-58646b33e0551.ttf */; };
 		43A728BCE080020B88C4A240 /* libPods-ropstam-ropstamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1223414A8DD79E0C22B429B /* libPods-ropstam-ropstamTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A5B88C85C24A41D19A302F46 /* sf-ui-display-ultralight-58646b19bf205.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46156072A1CC48E98A9E3D95 /* sf-ui-display-ultralight-58646b19bf205.ttf */; };
 		AA11DEB982F94FD7AECF52C8 /* sf-ui-display-black-58646a6b80d5a.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C63E5575D7947758DA143B5 /* sf-ui-display-black-58646a6b80d5a.ttf */; };
 		C33E0873DC7E49D18DC1FF7A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CA38CE2291B4D6492A92769 /* Poppins-Bold.ttf */; };
 		DAEE020620A44A949B860B1C /* sf-ui-display-medium-58646be638f96.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53F3C94D25494E1FBAEC78CF /* sf-ui-display-medium-58646be638f96.ttf */; };
@@ -23,6 +22,7 @@
 		E73688182B29485A9986ED01 /* sf-ui-display-bold-58646a511e3d9.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D596B1872AA4E2CABF2912B /* sf-ui-display-bold-58646a511e3d9.ttf */; };
 		F90EAFB287E34F1785B3BC20 /* sf-ui-display-thin-58646e9b26e8b.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59EE47F6142A4692BDBDAD67 /* sf-ui-display-thin-58646e9b26e8b.ttf */; };
 		FD02C36F39D741ADB29EC5B8 /* sf-ui-display-heavy-586470160b9e5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BEADEA9EC534344850A18EA /* sf-ui-display-heavy-586470160b9e5.ttf */; };
+		56B581B2D8464030BC78BF84 /* SFUIDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7988646DD91343B3A7655D44 /* SFUIDisplay-Ultralight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ropstam/main.m; sourceTree = "<group>"; };
 		31E2B0956777366A5E5B9F7D /* Pods-ropstam-ropstamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam-ropstamTests.release.xcconfig"; path = "Target Support Files/Pods-ropstam-ropstamTests/Pods-ropstam-ropstamTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CE679964F2141279823039B /* sf-ui-display-semibold-58646eddcae92.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-semibold-58646eddcae92.ttf"; path = "../src/assets/fonts/sf-ui-display-semibold-58646eddcae92.ttf"; sourceTree = "<group>"; };
-		46156072A1CC48E98A9E3D95 /* sf-ui-display-ultralight-58646b19bf205.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-ultralight-58646b19bf205.ttf"; path = "../src/assets/fonts/sf-ui-display-ultralight-58646b19bf205.ttf"; sourceTree = "<group>"; };
 		4BEADEA9EC534344850A18EA /* sf-ui-display-heavy-586470160b9e5.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-heavy-586470160b9e5.ttf"; path = "../src/assets/fonts/sf-ui-display-heavy-586470160b9e5.ttf"; sourceTree = "<group>"; };
 		4C63E5575D7947758DA143B5 /* sf-ui-display-black-58646a6b80d5a.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-black-58646a6b80d5a.ttf"; path = "../src/assets/fonts/sf-ui-display-black-58646a6b80d5a.ttf"; sourceTree = "<group>"; };
 		53F3C94D25494E1FBAEC78CF /* sf-ui-display-medium-58646be638f96.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "sf-ui-display-medium-58646be638f96.ttf"; path = "../src/assets/fonts/sf-ui-display-medium-58646be638f96.ttf"; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		D6217B3346BAD15D9E7510EC /* Pods-ropstam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ropstam.release.xcconfig"; path = "Target Support Files/Pods-ropstam/Pods-ropstam.release.xcconfig"; sourceTree = "<group>"; };
 		E1223414A8DD79E0C22B429B /* libPods-ropstam-ropstamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ropstam-ropstamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7988646DD91343B3A7655D44 /* SFUIDisplay-Ultralight.ttf */ = {isa = PBXFileReference; name = "SFUIDisplay-Ultralight.ttf"; path = "../src/assets/fonts/SFUIDisplay-Ultralight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,7 @@
 				53F3C94D25494E1FBAEC78CF /* sf-ui-display-medium-58646be638f96.ttf */,
 				3CE679964F2141279823039B /* sf-ui-display-semibold-58646eddcae92.ttf */,
 				59EE47F6142A4692BDBDAD67 /* sf-ui-display-thin-58646e9b26e8b.ttf */,
-				46156072A1CC48E98A9E3D95 /* sf-ui-display-ultralight-58646b19bf205.ttf */,
+				7988646DD91343B3A7655D44 /* SFUIDisplay-Ultralight.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -288,7 +288,7 @@
 				DAEE020620A44A949B860B1C /* sf-ui-display-medium-58646be638f96.ttf in Resources */,
 				E5F6118ADD534F5992193215 /* sf-ui-display-semibold-58646eddcae92.ttf in Resources */,
 				F90EAFB287E34F1785B3BC20 /* sf-ui-display-thin-58646e9b26e8b.ttf in Resources */,
-				A5B88C85C24A41D19A302F46 /* sf-ui-display-ultralight-58646b19bf205.ttf in Resources */,
+				56B581B2D8464030BC78BF84 /* SFUIDisplay-Ultralight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

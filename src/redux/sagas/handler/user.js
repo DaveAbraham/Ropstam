@@ -6,44 +6,7 @@ import {
   loginError,
   signUpError,
   signUpSucess,
-} from '../../reducers/carsReducer';
-
-// export function* handleLoginUser(action) {
-//   try {
-//     const response = yield call(getData, '@users');
-//     const data = parseJson(response);
-//     console.log('data', data[0].email);
-//     if (data) {
-//       console.log('inside data');
-//       let flag = 0;
-//       for (let i = 0, length = data.length; i < length; i++) {
-//         console.log(
-//           'inside lope',
-//           action.payload.email,
-//           data[i].email,
-//           action.payload.password,
-//           data[i].password,
-//         );
-//         if (
-//           data[i].email == action.payload.email &&
-//           data[i].password == action.payload.password
-//         ) {
-//           flag = 1;
-//         }
-//       }
-//       if (flag) {
-//         console.log('inside flage if', action.payload);
-//         // yield call(storeData, '@user', action.payload);
-//         // yield put(loginSucess(action.payload));
-//       } else {
-//         // alert('Invalid credentials');
-//         // yield put(loginError('Invalid credentials'));
-//       }
-//     }
-//   } catch (error) {
-//     alert('Unexpected error please try again');
-//   }
-// }
+} from '../../reducers/userReducer';
 export function* handleLoginUser(action) {
   console.log(action.payload);
   try {

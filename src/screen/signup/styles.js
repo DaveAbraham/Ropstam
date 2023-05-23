@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
   textFieldsContainer: {
     alignItems: 'center',
     justifyContent: 'center',
+
     // height: '48%',
   },
 });

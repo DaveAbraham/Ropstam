@@ -5,11 +5,12 @@ export const styles = StyleSheet.create({
     // backgroundColor:"green",
     width: LAYOUT.WIDTH - 30,
     alignSelf: 'center',
-    height: LAYOUT.HEIGHT / 6,
+    height: LAYOUT.HEIGHT / 5,
     borderRadius: 9,
     borderColor: LAYOUT.COLORS.S2,
     borderWidth: 0.5,
     flexDirection: 'row',
+    marginBottom:10
   },
   itemImageView: {
     alignItems: 'center',
@@ -31,7 +32,7 @@ export const styles = StyleSheet.create({
     resizeMode: 'cover',
   },
   itemDetailsView: {
-    backgroundColor: 'red',
+    // backgroundColor: 'red',
     width: LAYOUT.WIDTH / 2,
     height: LAYOUT.HEIGHT / 8,
     position: 'absolute',
